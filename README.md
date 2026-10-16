@@ -85,24 +85,31 @@ A modern, responsive, multi-page website built with React, TypeScript, Vite, and
 
 ### 1. Install Dependencies
 ```bash
+# Using Bun (recommended, matches bun.lock)
+bun install
+
+# Or using npm
 npm install
 ```
 
 ### 2. Start Local Development Server
 ```bash
-npm run dev
+bun run dev
+# or: npm run dev
 ```
 The local server will start at `http://localhost:3000`.
 
 ### 3. Build for Production
 ```bash
-npm run build
+bun run build
+# or: npm run build
 ```
 This compiles the application into the `dist/` directory, including the `CNAME`, `robots.txt`, `sitemap.xml`, and hashed asset bundles ready for static hosting.
 
 ### 4. Run TypeScript Lint / Check
 ```bash
-npm run lint
+bun run lint
+# or: npm run lint
 ```
 
 ---
